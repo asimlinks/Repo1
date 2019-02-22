@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="125220" started-at="2019-02-20T10:54:08Z" finished-at="2019-02-20T10:56:13Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="125220" started-at="2019-02-20T10:54:08Z" finished-at="2019-02-20T10:56:13Z">
+      <class name="AutoTest.MavenProject.Sample1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AutoTest.MavenProject.Sample1@6d4b1c02]" name="beforeTest" is-config="true" duration-ms="9924" started-at="2019-02-20T10:54:08Z" finished-at="2019-02-20T10:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AutoTest.MavenProject.Sample2@6093dd95]" name="beforeTest" is-config="true" duration-ms="14052" started-at="2019-02-20T10:54:18Z" finished-at="2019-02-20T10:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Second2()[pri:0, instance:AutoTest.MavenProject.Sample1@6d4b1c02]" name="Second2" duration-ms="6203" started-at="2019-02-20T10:54:32Z" finished-at="2019-02-20T10:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Second2 -->
+        <test-method status="PASS" signature="Second3()[pri:0, instance:AutoTest.MavenProject.Sample1@6d4b1c02]" name="Second3" duration-ms="22424" started-at="2019-02-20T10:54:38Z" finished-at="2019-02-20T10:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Second3 -->
+        <test-method status="PASS" signature="f()[pri:0, instance:AutoTest.MavenProject.Sample1@6d4b1c02]" name="f" duration-ms="21259" started-at="2019-02-20T10:55:00Z" finished-at="2019-02-20T10:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AutoTest.MavenProject.Sample1@6d4b1c02]" name="afterTest" is-config="true" duration-ms="1561" started-at="2019-02-20T10:56:10Z" finished-at="2019-02-20T10:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AutoTest.MavenProject.Sample2@6093dd95]" name="afterTest" is-config="true" duration-ms="1609" started-at="2019-02-20T10:56:11Z" finished-at="2019-02-20T10:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AutoTest.MavenProject.Sample1 -->
+      <class name="AutoTest.MavenProject.Sample2">
+        <test-method status="PASS" signature="MySampleTest()[pri:0, instance:AutoTest.MavenProject.Sample2@6093dd95]" name="MySampleTest" duration-ms="16265" started-at="2019-02-20T10:55:22Z" finished-at="2019-02-20T10:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySampleTest -->
+        <test-method status="PASS" signature="MyTest()[pri:0, instance:AutoTest.MavenProject.Sample2@6093dd95]" name="MyTest" duration-ms="8766" started-at="2019-02-20T10:55:38Z" finished-at="2019-02-20T10:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:AutoTest.MavenProject.Sample2@6093dd95]" name="f" duration-ms="23122" started-at="2019-02-20T10:55:47Z" finished-at="2019-02-20T10:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- AutoTest.MavenProject.Sample2 -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
